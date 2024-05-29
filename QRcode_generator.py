@@ -19,4 +19,4 @@ def create_qr_code(output_path: str):
 
 
 if __name__ == "__main__":
-    create_qr_code("qr-part1.png")
+    create_qr_code("BusinessCard.png")
