@@ -1,6 +1,7 @@
 from datetime import datetime
 import qrcode
 
+domain = 'https://smvistesen.github.io/digital-business-card/'
 
 def create_qr_code(output_path: str):
     """Create QR code image from content to output path."""
@@ -10,7 +11,7 @@ def create_qr_code(output_path: str):
         box_size=10,
         border=4,
     )
-    qr_object.add_data('https://nikl1543.github.io/digital-namecard/')
+    qr_object.add_data(domain)
     qr_object.make(fit=True)
 
     img = qr_object.make_image(fill_color="black", back_color="white").convert("RGBA")
