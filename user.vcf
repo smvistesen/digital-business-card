@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Vistesen;Sebastian;;;
+FN: Sebastian Vistesen 
+ORG:Restaurant Alouette;
+TITLE:Front of House Member
+EMAIL;type=INTERNET;type=WORK;type=pref:smvistesen@hotmail.com
+TEL;type=WORK;type=VOICE:+45 25 30 61 54
+item1.ADR;type=PRIVATE;type=pref:;;Vestre Teglgade 2D 3.tv;;;Copenhagen, 2450;Denmark
+item1.X-ABADR:sg
+END:VCARD
